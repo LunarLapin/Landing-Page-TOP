@@ -1,72 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
+/*body{
+    color:#fff; 
+    font-family:arial; 
+    font-weight:bold; 
+    font-size:40px; 
+}
+.main-container{ 
+    max-width:600px; 
+    margin:0 auto; 
+    border:solid 10px green; 
+    padding:10px; 
+    margin-top:40px;
+}
+.main-container *{
+    padding:10px;
+    background:#aaa; 
+    border:dashed 5px #000;
+}
+.main-container * + *{
+    margin-top:20px;
+}
+.main-header{
+  height:50px; 
+  background:#aaa; 
+  border-color:red;
+}
+.main-content{
+  min-height:1000px;
 }
 
-header {
-    background-color: #1F2937;
+.main-header{
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
 }
-#hero-logo, #hero-main-text, button {
-    color: #F9FAF8;
-}
-#hero-logo {
-    display: inline-block;
-    margin-left: 15%;
-    font-size: 24px;
-}
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-nav ul a {
-    text-decoration: none;
-}
-#hero-list {
-    display: inline-block;
-    margin-left: 15%;
-}
-.hero-link {
-    margin-right: 20px;
-}
-#hero-main-text {
-    font-size: 48px;
-    font-weight: 900;
-}
-#hero-secondary-text, nav ul a {
-    color: #E5E7EB;
-    font-size: 18px;
-}
+*/
 
-#hero-img {
-    height: 200px;
-    width: 500px;
-}
-
-#hero-text-img {
-    display: flex;
-    margin-left: 15%;
-    flex-wrap: nowrap;
-}
-#hero-img-block {
-    /*margin: 60px, 50px, 60px, 25%;*/
-    margin-top: 60px;
-    margin-right: 35px;
-    margin-bottom: 60px;
-    margin-left: 25%;
-    
-}
-button {
-    background-color: #3882F6;
-    border-radius: 5px;
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-weight: 900;
-}
-
-#hero-text-block {
-    margin-top: 60px;
-}
