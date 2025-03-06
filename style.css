@@ -40,6 +40,7 @@ nav {
 #header-second {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 12px;
 }
 
 #heroTextImg {
@@ -63,4 +64,39 @@ nav {
 
 button {
     background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    border: none;
+}
+
+#mainHeaderTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#mainTitle {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+#imgAndsubtext {
+    display: flex;
+    justify-content: center;
+}
+.mainImage {
+    height: 175px;
+    width: 175px;
+    border-radius: 7px;
+    border: 2px solid #3882F6;
+    
+}
+
+.mainImgBlock {
+    width: 175px;
+    margin-left: 3rem;
+    color: #1F2937;
 }
