@@ -67,7 +67,12 @@ button {
     padding: 5px 15px;
     border-radius: 5px;
     color: #E5E7EB;
-    border: none;
+}
+#heroButton {
+        border: none;
+}
+#callButton {
+    border: 2px solid white;
 }
 
 #mainHeaderTitle {
@@ -99,4 +104,42 @@ button {
     width: 175px;
     margin-left: 3rem;
     color: #1F2937;
+}
+
+#quoteSection {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+
+#quoteBlock {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#quoteSignature {
+    color: #1F2937;
+    font-size: 24px;
+    padding-left: 550px;
+}
+#callToAction {
+    background-color: #3882F6;
+    margin: 60px 100px;
+    border-radius: 5px;
+}
+
+
+#callMain {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+#callSecondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
